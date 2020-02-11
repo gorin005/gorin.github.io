@@ -1,0 +1,359 @@
+
+body{
+  margin: 0;
+  font-size: 16px;
+  font-family: "Gill Sans Std Book", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+header{
+  width: 100%;
+  height: 668px;
+  background-image: url("../img/photo.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+}
+.container{
+  padding-top: 64px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  /* background-color: aquamarine; */
+  margin-right: 64px;
+  margin-left: 64px;
+}
+
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-between ;
+}
+nav a {
+  /* background: pink; */
+  width: 100px;
+  line-height: 100px;
+  font-size: 14px;
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  display: block;
+  font-style: normal;
+}
+
+
+
+.message{
+  /* background-image: url(img/photo.png); */
+  width: 100%;
+  height: 100%;
+  background-color:#F6F6F6;
+  padding-bottom: 64px;
+}
+
+.message h1{
+  width: 816px; 
+  line-height: 100px;
+  font-size: 44px;
+  font-weight: normal;
+  text-align: center;
+  /* margin-top: 128px; */
+  margin-left: auto;
+  margin-right: auto;
+ }
+.message p{
+  line-height: 1.8;
+  font-size: 20px;
+  width: 370px;
+  /* background-color: red; */
+  /* text-align: center; */
+  margin: 0 auto;
+}
+.message img{
+  width: 370px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.message-text p{
+
+  font-size: 20px;
+}
+
+.product{
+  /* width: 100%; */
+  /* background-image: url("../img/photo.png"); */
+  width: 816px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+
+}
+
+.product-box{
+  display: flex;
+  font-size: 30px;
+}
+
+.product-box p{
+  /* color: white; */
+
+  margin-bottom: 17px;
+}
+
+.product-box a{
+  font: "Helvetica Neue";
+  font-size: 14px;
+  width: 160px;
+  height: 46px;
+  line-height: 46px;
+  /* padding: 12px 12px; */
+  background-color: white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  border:thin solid;
+}
+
+#product-more:hover {
+  background-color:black;
+  color: white;
+}
+
+
+.product-linenap{
+  width: 816px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-linenap img{
+  padding: 0px;
+  width :241px;
+  /* width: 33.3%; */
+  height:319px ;
+  margin: 15px 15px;
+}
+
+.product-linenap a{
+  width :241px;
+  font-size: 20px;
+  display: block;
+  font-weight: bold;
+  line-height: 1.8em;
+  /* background-color: violet; */
+}
+
+.news{
+  width: 100%;
+  /* background-image: url("../img/photo.png"); */
+  background-color: #F6F6F6; 
+  margin-top: 64px;
+  padding-top: 64px;
+}
+
+.news-box{
+  width: 816px; 
+  /* background-color: gray; */
+  display: flex;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 64px;
+}
+.news-box p{
+  margin-bottom: 17px;
+}
+
+.news-box a{
+  font: "Helvetica Neue";
+  font-size: 14px;
+  width: 162px;
+  height: 46px;
+  line-height: 46px;
+  background-color: white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  border:thin solid;
+}
+
+#news-more:hover {
+  background-color:black;
+  color: white;
+}
+
+.news-container{
+  width: 816px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  flex-wrap: wrap;
+}
+.news-container img{
+  width : 322.5px;
+  height : 168.16px;
+  padding: 0px 15px;
+}
+
+.news-text{
+  width: 463px;
+  padding: 0px 15px;
+}
+
+.news-text h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  width: 463px;
+
+}
+
+.news-text h1+p{
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  width: 463px;
+
+}
+
+.news-text p{
+  font-style: normal;
+  font-size: 13px;
+  line-height: 22px;
+  width: 463px;
+
+}
+.link{
+  /* background-color:pink; */
+}
+.link-container{
+  width: 816px;
+  display: flex;
+  /* background-color: limegreen; */
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  /* text-align: center; */
+  padding: 35px 0px;
+}
+
+.link-container a{
+  text-align: center;
+  text-decoration: none;
+  width :162px;
+  font-size: 14px;
+  display: block;
+  line-height: 46px;
+  border: solid;
+  border-width: thin;
+  margin: 15px 15px;
+  background-color: transparent;
+
+  /* background-color: violet; */
+}
+#FB{
+  border-color:#4871a9;;
+  color: #4871a9;
+  text-decoration: none;
+
+}
+#Twitter{
+  border-color:#70bdd3;
+  color: #70bdd3;
+  text-decoration: none;
+
+}
+#Hatena{
+  border-color:#2f9bcd;
+  color: #2f9bcd;
+  text-decoration: none;
+
+}
+  
+#FB:hover {
+  background-color:#4871a9;
+  color: white;
+}
+#Twitter:hover {
+  background-color:#70bdd3;;
+  color: white;
+  
+}
+#Hatena:hover {
+  background-color:#2f9bcd;
+  color: white;
+}
+
+
+.under-menu{
+  background-color:#939899;
+}
+
+.under-menu ul {
+  width: 816px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content:center ;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+
+}
+.under-menu a{
+  width: 100px;
+  line-height: 100px;
+  font-size: 14px;
+  color:white;
+  text-align: center;
+  display: block;
+  font-style: normal;
+  text-decoration: none;
+
+
+}
+footer{
+  width: 100%;
+  background-color:#656c6e;
+}
+
+.footer-container{
+  width: 816px;
+  height: 89px;
+  display: flex;
+  /* justify-content:center ; */
+  padding: 0 33px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center; /* 縦方向中央揃え */
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+}
+
+.footer-container img{
+  width: 90px;
+  height: 89px;
+}
+
+.footer-container p{
+   font-size: 10px;
+  color: #ffffff;
+  margin-left: auto;
+}
